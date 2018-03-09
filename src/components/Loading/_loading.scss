@@ -44,7 +44,7 @@ $loading__size: 10.5rem;
   }
 
   .#{$prefix}--loading__center-inner {
-    fill: $inverse-01;
+    fill: $ui-01;
     animation: expand 1.5s ease-in-out infinite;
     animation-delay: 1.75s;
   }

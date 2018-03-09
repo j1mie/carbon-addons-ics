@@ -28,11 +28,21 @@ storiesOf('Components|Tag', module)
       `,
     )(() => (
       <TagWrapper aria-label="Tags">
-        <Tag className="some-class">Offering Managment &middot; 72</Tag>
-        <Tag className="some-class">Development &middot; 63</Tag>
-        <Tag className="some-class">RTP &middot; 51</Tag>
-        <Tag className="some-class">Littleton &middot; 33</Tag>
-        <Tag className="some-class">Dublin &middot; 12</Tag>
+        <Tag style={'light'} className="some-class">
+          Offering Managment &middot; 72
+        </Tag>
+        <Tag style={'light'} className="some-class">
+          Development &middot; 63
+        </Tag>
+        <Tag style={'light'} className="some-class">
+          RTP &middot; 51
+        </Tag>
+        <Tag style={'light'} className="some-class">
+          Littleton &middot; 33
+        </Tag>
+        <Tag style={'light'} className="some-class">
+          Dublin &middot; 12
+        </Tag>
       </TagWrapper>
     )),
   )
@@ -47,16 +57,16 @@ storiesOf('Components|Tag', module)
         <Tag remove className="some-class">
           Offering Managment
         </Tag>
-        <Tag remove className="some-class">
+        <Tag style={'light'} remove className="some-class">
           Development
         </Tag>
-        <Tag remove className="some-class">
+        <Tag style={'light'} remove className="some-class">
           RTP
         </Tag>
-        <Tag remove className="some-class">
+        <Tag style={'light'} remove className="some-class">
           Littleton
         </Tag>
-        <Tag remove className="some-class">
+        <Tag style={'light'} remove className="some-class">
           Dublin
         </Tag>
       </TagWrapper>
@@ -71,13 +81,13 @@ storiesOf('Components|Tag', module)
       `,
     )(() => (
       <TagWrapper aria-label="Tags">
-        <Tag action={'add'} {...actionTagProps}>
+        <Tag style={'light'} action={'add'} {...actionTagProps}>
           Offering Managment
         </Tag>
-        <Tag action={'success'} {...actionTagProps}>
+        <Tag style={'light'} action={'success'} {...actionTagProps}>
           Development
         </Tag>
-        <Tag action={'remove'} {...actionTagProps}>
+        <Tag style={'light'} action={'remove'} {...actionTagProps}>
           Design
         </Tag>
       </TagWrapper>

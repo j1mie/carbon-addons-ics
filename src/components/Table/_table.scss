@@ -66,6 +66,10 @@
     }
   }
 
+  .#{$prefix}--table-body > .#{$prefix}--parent-row--even {
+    //background: $ui-02;
+  }
+
   .#{$prefix}--table-body .#{$prefix}--table-row {
     border: 1px solid transparent;
 
@@ -87,6 +91,6 @@
   }
 
   .#{$prefix}--table-sort__svg {
-    @include icon-reset('sml');
+    @include icon-reset('small');
   }
 }
