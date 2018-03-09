@@ -17,7 +17,7 @@
     @include type-scale-item(c, false);
     height: auto;
     padding: 0 0 rem(6px);
-    background: none;
+    background: $field-01;
     border: none;
     border-bottom: $input-border;
 

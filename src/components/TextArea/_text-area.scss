@@ -13,7 +13,7 @@
     border: none;
     border-bottom: $input-border;
     padding: 1rem 0;
-    background: transparent;
+    background: $field-01;
 
     &:not(:placeholder-shown) {
       box-shadow: 0 2px 0 $text-02;
