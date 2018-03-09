@@ -17,8 +17,8 @@ $direction: ltr !default;
 // 🌍 Carbon globals
 //-------------------------
 
-@import 'carbon-components/src/globals/scss/css--font-face';
-@import 'carbon-components/src/globals/scss/css--body';
+@import '~carbon-components/src/globals/scss/css--font-face';
+@import '~carbon-components/src/globals/scss/css--body';
 
 //-------------------------
 // 🌍 ICS globals

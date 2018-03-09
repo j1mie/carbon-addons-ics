@@ -22,7 +22,7 @@
   height: rem(40px);
   width: rem(40px);
   border-radius: 50%;
-  background: $ui-04;
+  background: $ui-03;
   @include animation__skeleton;
 }
 
@@ -30,7 +30,7 @@
   height: 1rem;
   width: 100%;
   margin-bottom: 1rem;
-  background: $ui-04;
+  background: $ui-03;
   @include animation__skeleton;
 }
 

@@ -2,17 +2,21 @@
 @import '../../globals/type/ics-typography';
 @import '../../globals/bidi/bidi';
 @import '../../globals/layer/ics-layer';
+@import 'carbon-components/src/globals/scss/import-once';
+@import 'carbon-components/src/globals/scss/typography';
 
 // Nested atoms
 @import '../Button/button';
 
 @include exports('cardv2--ics') {
   .#{$prefix}--cardv2 {
+    background: $ui-01;
+    @include font-family;
+    @include layer('raised');
     direction: $direction;
     width: auto;
     height: auto;
     margin-bottom: 1rem;
-    @include layer('raised');
 
     &:focus {
       outline: 1px solid $brand-01;

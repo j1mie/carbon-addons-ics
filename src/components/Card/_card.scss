@@ -10,6 +10,7 @@
 @include exports('card--ics') {
   .#{$prefix}--card {
     @include layer('raised');
+    border: 1px solid $ui-03;
     direction: $direction;
     width: auto;
     height: auto;
@@ -63,7 +64,7 @@
 
   .#{$prefix}--card-footer {
     background-color: $ui-01;
-    border-top: 1px solid $ui-03;
+    border-top: 1px solid $ui-02;
     padding: 1rem;
     height: auto;
   }

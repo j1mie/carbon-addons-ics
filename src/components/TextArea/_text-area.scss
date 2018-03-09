@@ -12,6 +12,8 @@
     display: block;
     border: none;
     border-bottom: $input-border;
+    padding: 1rem 0;
+    background: transparent;
 
     &:not(:placeholder-shown) {
       box-shadow: 0 2px 0 $text-02;
@@ -21,6 +23,13 @@
       outline: none;
       box-shadow: none;
       @include mi-underline-focus;
+    }
+
+    &:disabled {
+      &:hover {
+        border: none;
+        border-bottom: $input-border;
+      }
     }
   }
 

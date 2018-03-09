@@ -1,10 +1,10 @@
 @mixin animation__skeleton {
   background-image: linear-gradient(
     to right,
-    lighten($ui-04, 5) 0%,
-    $ui-03 45%,
-    lighten($ui-04, 5) 55%,
-    lighten($ui-04, 5) 100%
+    lighten($ui-03, 5) 0%,
+    $ui-02 45%,
+    lighten($ui-03, 5) 55%,
+    lighten($ui-03, 5) 100%
   );
   background-size: 200% 200%;
   animation: skeleton-load 2s ease infinite;
