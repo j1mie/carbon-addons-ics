@@ -15,6 +15,7 @@ es
 storybook-static
 /scss
 /icons
+/icons/*
 
 # a11y files
 a11y/results
