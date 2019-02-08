@@ -1,1 +1,1 @@
-export default from './TextInput';
+export { TextInput as default } from 'carbon-components-react';

@@ -1,3 +1,1 @@
-export Loading from './Loading';
-export SpinnerLg from './SpinnerLg';
-export SpinnerSml from './SpinnerSml';
+export { Loading } from 'carbon-components-react';

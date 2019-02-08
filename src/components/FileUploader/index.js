@@ -1,1 +1,1 @@
-export default from './FileUploader';
+export { FileUploader as default } from 'carbon-components-react';

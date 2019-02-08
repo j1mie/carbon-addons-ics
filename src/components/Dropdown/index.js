@@ -1,1 +1,1 @@
-export default from './Dropdown';
+export { Dropdown as default } from 'carbon-components-react';

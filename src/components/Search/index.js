@@ -1,1 +1,1 @@
-export default from './Search';
+export { Search as default } from 'carbon-components-react';

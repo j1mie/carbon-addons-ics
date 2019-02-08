@@ -2,7 +2,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { DataTable } from 'carbon-components-react';
-import { TableHeader, OverflowMenu } from '../../index';
 import { OverflowMenuItem } from 'carbon-components-react';
 const {
   Table,
@@ -13,6 +12,8 @@ const {
   TableRow,
   TableSelectAll,
   TableSelectRow,
+  TableHeader,
+  OverflowMenu
 } = DataTable;
 import { withReadme } from 'storybook-readme';
 import readme from './README.md';

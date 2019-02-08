@@ -6,11 +6,6 @@ import { FileUploader } from '../../index';
 import { withReadme } from 'storybook-readme';
 import readme from './README.md';
 
-const tooltipProps = {
-  text: 'only .jpg files at 500mb or less',
-  iconName: 'info',
-};
-
 storiesOf('Components|FileUploader', module)
   .addDecorator(withReadme(readme))
   .add(
@@ -39,24 +34,6 @@ storiesOf('Components|FileUploader', module)
       <FileUploader
         labelTitle="Upload"
         labelDescription="only .jpg files at 500mb or less"
-        buttonLabel="Add files"
-        filenameStatus="edit"
-        buttonKind="secondary"
-        multiple
-      />
-    ))
-  )
-  .add(
-    'FileUploader with Tooltip',
-    withInfo(
-      `
-      The FileUploader components allow the user to upload any necessary files. This uses the FileUploaderButton and Filename components. Filename components will appear below the FileUploaderButton when files are added. Use the filenameStatus prop to control what icon appears in Filename ('edit', 'complete', or 'uploading').
-    `
-    )(() => (
-      <FileUploader
-        labelTitle="Upload a file"
-        labelDescription="Choose a file to upload"
-        labelTooltip={tooltipProps}
         buttonLabel="Add files"
         filenameStatus="edit"
         buttonKind="secondary"

@@ -1,1 +1,1 @@
-export default from './Tooltip';
+export { Tooltip as default } from 'carbon-components-react';

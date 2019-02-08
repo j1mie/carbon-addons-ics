@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
-import { ListItem, OrderedList } from '../../../index';
+import { ListItem, OrderedList } from 'carbon-components-react';
 import { withReadme } from 'storybook-readme';
 import readme from './README.md';
 

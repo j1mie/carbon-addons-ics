@@ -1,1 +1,1 @@
-export default from './Select';
+export { Select as default } from 'carbon-components-react';
